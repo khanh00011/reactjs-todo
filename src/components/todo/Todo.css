@@ -1,0 +1,30 @@
+.todo-container {
+    max-width: 550px;
+    margin: auto;
+    /* background-color:#fff; */
+    padding-bottom: 50px;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+
+  .todo-contents{
+    margin-top: 10px;
+    border: 1px solid #555;
+    padding: 15px 54px 50px 54px;
+    position: relative;
+  }
+  .select-delete{
+   position: absolute;
+   bottom:0px;
+   right: 54px;
+    background-color: rgb(219, 59, 59);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px ;
+    cursor: pointer;
+  }
+  .select-delete:hover{
+    background-color: red;
+  }
+ 
